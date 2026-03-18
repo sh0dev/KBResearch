@@ -1,0 +1,913 @@
+@import url('main.css');
+@import url('tokens.css');
+
+
+.modal__root {
+    overflow-y: clip;
+}
+
+.modal::backdrop { background: var(--bg-d); }
+
+.modal__content__box {
+}
+
+/* 26.02.25 수정 */
+.modal__content {
+    font-family: 'KBfgTextM', sans-serif !important;
+    max-width:60rem;
+    max-height:60rem;
+    height: 38rem;
+    background:var(--bg-d);
+    color: var(--bg-dark);
+    border-radius: var(--radius2);
+    line-height: 1.6;
+    box-shadow: 0 10px 40px rgba(0,0,0,.05);
+    padding:1.5rem 2rem;
+    margin:0 auto;
+    /* overflow-x: scroll; */
+}
+
+.modal__content2 {
+    padding:2rem;
+}
+
+.modal__exlinks__box {
+    min-height: 60dvh;
+    height: 60dvh;
+    overflow-y: scroll;
+}
+
+.modal__content__adjust {
+    max-width:50rem !important;
+}
+
+.modal__fd__wrapper {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    gap:.5rem;
+    width:100%;
+}
+
+.modal__close__wrapper {
+    display:flex;
+}
+
+.modal__close__wrapper .modal__close {
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+.modal__close_ic {
+    width:1rem;
+    height:1rem;
+    background-image:url('/reNew/images/chatbotAI/icons/cancel_ic.svg');
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+[data-theme="dark"] .modal__close_ic {
+    background-image:url('/reNew/images/chatbotAI/icons/cancel_ic_w.svg');
+}
+
+.modal__title__wrapper {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    gap:.5rem;
+    width:100%;
+    margin:1rem 0;
+}
+
+.modal__title {
+    font-size:var(--md-kor16);
+    font-weight:bold;
+    color:var(--bg-dark);
+}
+
+.modal__subtitle {
+    font-size:var(--sm-kor);
+    color:var(--bg-gray2);
+}
+
+.modal__cont {
+    width:100%;
+    height:100%;
+}
+
+.feedback__modal {
+    font-family: 'KBfgTextM', sans-serif !important;
+    font-size:var(--sm-kor);
+    border:1px solid var(--bg-light2);
+    resize:none;
+    border-radius:var(--radius1);
+    min-width:50rem;
+    min-height:20rem;
+    transition:all .2s ease-in;
+    padding:.25rem .5rem;
+    color:var(--bg-dark);
+    line-height: 1.6;
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
+    scrollbar-gutter: stable;
+    background:var(--bg-s);
+}
+
+.feedback__modal::-webkit-scrollbar {
+    width: 6px;
+}
+
+.feedback__modal::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.feedback__modal::-webkit-scrollbar-thumb {
+    background: var(--bg2);
+    border-radius: 6px;
+    transition: background .3s;
+}
+
+
+.feedback__modal:hover::-webkit-scrollbar-thumb,
+.feedback__modal:active::-webkit-scrollbar-thumb {
+    background: var(--bg2);
+    border: 2px solid transparent;
+    background-clip:content-box;
+}
+
+.feedback__modal:hover {
+    border:1px solid var(--bg-gray2);
+}
+
+.modal__btn__group {
+    display:flex;
+    flex-direction:row;
+    gap:1rem;
+    margin:.6rem 0 0 0;
+    justify-content:center;
+}
+
+.modal__btn__group .modal__btn__item {
+    min-width:3rem;
+    padding:.7rem 1rem;
+    border-radius:20rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+.modal__btn__group .modal__btn__confirm {
+    background:var(--bg-light2);
+    border:1px solid var(--bg-light2);
+    color:var(--bg-gray2);
+    transition:all .2s ease-in;
+}
+
+.modal__btn__group .modal__btn__confirm:hover {
+    background:var(--primary);
+    border:1px solid var(--primary);
+    color:var(--btn-n);
+}
+
+.modal__btn__group .modal__btn__confirm:focus-within {
+    outline:1px solid var(--bg-dark); outline-offset: 2px;
+}
+
+.modal__btn__group .modal__btn__cancel {
+    background:var(--bg-light2);
+    border:1px solid var(--bg-light1);
+    color:var(--bg-gray2);
+    transition:all .2s ease-in;
+}
+
+.modal__btn__group .modal__btn__cancel:hover {
+    background:var(--bg-light2);
+    border:1px solid var(--bg-light2);
+    font-weight:600;
+    color:var(--dg-d);
+}
+
+.modal__btn__group .modal__btn__cancel:focus-within {
+    outline:1px solid var(--bg-dark); outline-offset: 2px;
+}
+
+.modal__btn__group .modal__btn__confirm__primary {
+    background:var(--primary);
+    border:1px solid var(--primary);
+    color:var(--tt-t);
+    font-weight:500;
+    transition:all .2s ease-in;
+}
+
+
+.modal__btn__group .modal__btn__confirm__primary:hover {
+    font-weight:600;
+    color:var(--btn-n);
+}
+
+.modal__btn__group .modal__btn__confirm__primary:focus-within {
+    outline:1px solid var(--bg-dark); outline-offset: 2px;
+}
+
+
+/* 12.11 수정  */
+.modal__setting__box {
+	height:430px !important;
+	max-height:430px !important;
+}
+.modal__setting__wrapper {
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    position:relative;
+    gap:.5rem;
+    width:100%;
+}
+
+.modal__setting__cont {
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    gap:2rem;
+}
+
+.modal__setting__menu {
+    min-width: 8rem;
+}
+
+.modal__setting__menus {
+    display:flex;
+    flex-direction:column;
+}
+
+.modal__setting__menus .modal__setting__menuitems {
+    padding:1rem 0;
+    border-bottom:1px solid var(--bg-light1);
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:flex-start;
+    gap:.5rem;
+    font-weight:normal;
+}
+
+.modal__setting__menus .modal__setting__menuitems:hover { font-weight:bold; }
+.modal__setting__menus .modal__setting__menuitems .setting__menu__btn {
+    font-size:var(--md-kor15);
+    color:var(--bg-dark);
+}
+
+
+/* 10.13 수정 */
+.setting__menu__ic {
+    background-image:url('/reNew/images/chatbotAI/icons/modal_toggle_ic.svg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:.8rem;
+    height:.8rem;
+}
+/* 10.13 수정 */
+[data-theme="dark"] .setting__menu__ic {
+    background-image:url('/reNew/images/chatbotAI/icons/modal_toggle_ic_w.svg');
+}
+/* 10.13 수정 */
+.setting__menu__ic span {
+    display: none;
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    border:0;
+}
+.modal__display__setting,
+.modal__fontsize__setting {
+    display:flex;
+    flex-direction:column;
+    padding:1rem 1.5rem;
+    width:100%;
+}
+
+/* 26.02.25 수정 */
+.modal__display__setting .modal__setting__displaymode {
+    min-width: 30rem;
+    height: 22rem;
+}
+
+.setting__title__wrapper {
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    gap:.5rem;
+    width:100%;
+}
+
+.setting__title__wrapper .setting__title {
+    font-size:var(--md-kor15);
+    color:var(--bg-dark);
+    font-weight:bold;
+}
+
+
+.setting__title__wrapper .setting__subtitle {
+    font-size:var(--md-kor15);
+    color:var(--bg-gray2);
+    font-weight:light;
+}
+
+.modal__displaymode__cont {
+    display:grid;
+    gap:0rem;
+    justify-content:center;
+    margin:3rem 0 2rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    width: 26rem;
+    justify-items: center;
+}
+
+/* 11.17 수정 */
+.modal__fontsize__cont {
+    display:grid;
+    flex-direction:row;
+    gap:8px;
+    margin:3rem 0 2rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+    width: 26rem;
+    justify-items: unset;
+}
+
+/* 11.17 수정 */
+.modal__fontsize__cont > div:nth-of-type(1) > div > div > div p { transform:scale(.92) !important;}
+.modal__fontsize__cont > div:nth-of-type(3) > div > div > div p { transform:scale(1.09) !important;}
+
+.modal__displaymode__cont .displaymode__option,
+.modal__fontsize__cont .fontsize__option {
+    display:flex;
+    flex-direction:column;
+    gap:.2rem;
+    width:unset;
+    align-items: center;
+}
+
+.modal__fontsize__cont .fontsize__option {
+    width:fit-content !important;
+}
+
+.displaymode__option .option__title,
+.fontsize__option .option__title {
+    font-size:var(--md-kor15);
+    color:var(--bg-gray2);
+    font-weight:light;
+}
+
+.displaymode__option .option__btn__displaymode__box {
+    width: 11rem;
+    height: 8rem;
+    border-radius:var(--radius2);
+    padding:1rem;
+    border:1px solid var(--bg);
+    transition:all .2s ease;
+    position:relative;
+    margin:.5rem 0;
+}
+
+.option__bgcolor_y {
+    background-image:var(--linear-gradient-opacity);
+}
+
+.displaymode__option .option__btn__displaymode__box:hover {
+    border:1px solid var(--primary);
+}
+
+.displaymode__option .option__btn__displaymode__box .option__btn__wrapper {
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+    width:100%;
+}
+
+.option__btn__wrapper .option__display__ic {
+    width:1rem;
+    height:auto;
+    position:absolute;
+    top:1rem;
+    right:1rem;
+}
+
+.option__btn__wrapper .option__btn__cont1 {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.option__btn__wrapper .option__btn__cont1 .option__btn__title {
+    font-size:var(--md-kor15);
+    color:var(--btn-n);
+}
+
+.option__btn__wrapper .option__btn__subtitle__wrapper {
+    display:flex;
+    flex-direction:row;
+    gap:.2rem;
+    align-items:center;
+}
+
+.option__btn__wrapper .option__btn__cont1 .option__btn__subtitle {
+    font-size:var(--ex-sm-kor);
+    color:var(--bg-gray2);
+}
+
+.option__btn__wrapper .option__btn__cont1  .option__btn__subtitle__wrapper .subtitle_ic {
+    width:.8rem;
+    height:.8rem;
+    transform:translateY(1px);
+}
+
+.option__btn__wrapper .option__btn__cont2 {
+    display:flex;
+    justify-content:flex-end;
+    display: none;
+}
+
+.btn__option__cont_text {
+    background:var(--btn-tt);
+    border:1px solid var(--bg-light1);
+    padding:.35rem .6rem;
+    color:var(--btn-n);
+    border-radius:20rem;
+    line-height: 1.6;
+}
+
+.option__btn__wrapper .option__btn__cont3 {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    gap:.3rem;
+}
+
+.option__btn__wrapper .option__btn__cont3 .option__btn__text {
+    font-size:var(--ex-sm-kor);
+    color:var(--bg-gray2);
+    font-weight:bold;
+}
+
+
+.option__btn__wrapper .option__btn__cont3 .option__btn_i {
+    display:flex;
+    flex-direction:row;
+    gap:.5rem;
+}
+
+.option__btn__wrapper .option__btn__cont3 .option__btn_i .up_ic {
+    width:.8rem;
+    height:auto;
+}
+
+.option__btn__wrapper .option__btn__cont3 .option__btn_i .option__btn_red {
+    font-size:var(--ex-sm-kor);
+    color:var(--alert);
+}
+
+.option__btn__wrapper .option__btn__cont3 .option__btn_i .option__btn_dark {
+    font-size:var(--ex-sm-kor);
+    color:var(--btn-n);
+}
+
+.option__bgcolor_d {
+    background-image:linear-gradient(180deg, #12121A 75%, #26263A);
+}
+
+.option__btn__wrapper .option__btn__cont1 .option__btn__title_d {
+    font-size:var(--md-kor15);
+    color:var(--btn-tt);
+}
+
+.option__btn__wrapper .option__btn__cont1 .option__btn__subtitle_d {
+    font-size:var(--ex-sm-kor);
+    color:#3644B3;
+}
+
+.btn__option__cont_text_d {
+    background:#383c507b;
+    border:1px solid var(--bg-gray1);
+    padding:.35rem .6rem;
+    color:var(--btn-tt);
+    border-radius:20rem;
+    line-height: 1.6;
+}
+
+.option__btn_text_d {
+    font-size:var(--ex-sm-kor);
+    color:var(--btn-tt);
+    font-weight:bold;
+}
+
+.option_btn_dark_d {
+    font-size:var(--ex-sm-kor);
+    color:var(--btn-tt);
+}
+
+.displaymode__option .setting_rd {
+}
+
+.setting_rd {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 6px 0;
+}
+
+.setting_rd input[type="radio"] {
+    display: none;
+}
+
+/* 12.11 수정  */
+.setting_rd__custom {
+    width: 20px;
+    height: 20px;
+    border: none;
+   	outline: 1px solid  var(--bg-light2);
+   	outline-offset:1px;
+    border-radius: 50%;
+    position: relative;
+    background:var(--white);
+    box-shadow: var(--elev-1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 12.11 수정  */
+.setting_rd input[type="radio"]:checked + .setting_rd__custom {
+    background:var(--white);
+    border:none;
+   	outline: 1px solid  var(--primary);
+   	outline-offset:1px;
+}
+
+/* 12.11 수정  */
+.setting_rd input[type="radio"] + .setting_rd__custom::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    background:var(--bg-light2);
+    position: absolute;
+    /* 10.01 수정 */
+    /* android : 2.3px */
+    top: 3px; 
+    left: 3px;
+    border-radius:50%;
+}
+
+.setting_rd input[type="radio"]:checked + .setting_rd__custom::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background:var(--primary);
+    /* 10.01 수정 */
+    /* android : 2.3px */
+    top: 3px;
+    left: 3px;
+    border-radius:50%;
+}
+
+
+.fontsize__option .option__btn__box {
+    background:var(--bg);
+    min-width: 100px;
+    min-height: 6rem;
+    border-radius:var(--radius2);
+    padding:.5rem .8rem;
+    border:1px solid var(--bg-light1);
+}
+
+.fontsize__option .option__btn__box:hover {
+    background:var(--white);
+    border:1px solid var(--primary);
+}
+
+.fontsize__option .option__btn__box .option__btn__wrapper {
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.fontsize__option .option__btn__box .option__btn__wrapper .option__btn__cont1 {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:.8rem;
+}
+
+.fontsize__option .option__btn__box .option__btn__wrapper .option__btn__cont1 .option__btn__title {
+    font-size:var(--md-kor15);
+    color:var(--bg-gray2);
+    font-weight:bold;
+    transition:all .2s ease-in;
+}
+
+.fontsize__option .option__btn__box .option__btn__wrapper .option__btn__cont1 .option__btn__subtitle {
+    font-size:var(--sm-kor);
+    color:var(--bg-gray3);
+    transition:all .2s ease-in;
+}
+
+.fontsize__option .option__btn__box:hover .option__btn__wrapper .option__btn__cont1 .option__btn__title,
+.fontsize__option .option__btn__box:focus-within .option__btn__wrapper .option__btn__cont1 .option__btn__title  {
+    color:var(--bg-gray1);
+}
+
+.fontsize__option .option__btn__box:hover .option__btn__wrapper .option__btn__cont1 .option__btn__subtitle,
+.fontsize__option .option__btn__box:focus-within .option__btn__wrapper .option__btn__cont1 .option__btn__subtitle  {
+    color:var(--bg-gray1);
+}
+
+.modal__btn__group__adjust {
+    margin-bottom:.5rem;
+}
+
+.modal__btn__group .setting__btn__confirm {
+    background:var(--bg-light2);
+    border:1px solid var(--bg-light2);
+    color:var(--bg-gray2);
+    transition:all .2s ease-in;
+    min-width:3rem;
+    padding:.7rem 1rem;
+    border-radius:20rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.modal__btn__group .setting__btn__confirm:hover {
+    background:var(--primary);
+    color:var(--btn-n);
+    border:1px solid var(--primary);
+}
+
+
+
+.modal__btn__group .setting__btn__confirm:focus-within {
+    outline:1px solid var(--bg-dark); outline-offset: 2px;
+}
+
+.modal__dl__wrapper {
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    gap:.5rem;
+    min-width:23rem;
+    min-height:12.3rem;
+    justify-content:center;
+    align-items:center;
+    transition:all .2s ease-in;
+}
+
+.modal__content__common {
+    font-family: 'KBfgTextM', sans-serif !important;
+    background:var(--white);
+    color: var(--bg-dark);
+    border-radius: var(--radius2);
+    line-height: 1.6;
+    box-shadow: 0 10px 40px rgba(0,0,0,.05);
+    padding:1.5rem 2rem;
+    margin:0 auto;
+}
+
+.modal__title__wrapper__common {
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    align-items:center;
+    text-align:center;
+    line-height:1.8;
+}
+
+.modal__title__lg {
+    font-family: 'KBfgDisplayB', sans-serif;
+    font-size:var(--xl-kor);
+    color:var(--bg-dark);
+    font-weight:normal;
+}
+
+
+.modal__displaymode__wr {
+	display:flex;
+	flex-direction:column;
+	justify-contentt:center;	
+}
+
+@media (max-width: 980px) {
+    .modal__content2 {
+        padding:1rem 1rem 2rem 1.2rem;
+    }
+
+    .modal__content__adjust {
+        max-width:50rem !important;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .feedback__modal {
+        width:100%;
+        min-width:35rem;
+    }
+
+    /* setting */
+    /* 11.17 수정 */
+    .modal__setting__wrapper {
+        width:100%;
+        height:100%;
+    }
+
+    .modal__setting__cont {
+        gap: 0rem;
+    }
+
+    .modal__setting__menus .modal__setting__menuitems .setting__menu__btn {
+        font-size: var(--sm-kor);
+    }
+
+    .setting__title__wrapper .setting__subtitle {
+        font-size: var(--sm-kor);
+    }
+
+    .modal__displaymode__cont, .modal__fontsize__cont {
+        flex-direction: column;
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+
+    .modal__displaymode__cont .displaymode__option, .modal__fontsize__cont .fontsize__option {
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        padding:0 1rem;
+    }
+
+    .displaymode__option .option__btn__displaymode__box, .fontsize__option .option__btn__box {
+       display:none;
+    }
+
+    .modal__display__setting .modal__setting__displaymode {
+        min-width: 100%;
+    }
+
+    .modal__exlinks__box {
+        min-height: 60dvh;
+        height: 70dvh;
+        overflow-y: scroll;
+    }
+    
+}
+
+@media (max-width: 820px) {
+
+    .feedback__modal {
+        min-width:28rem;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .feedback__modal {
+        min-width:20rem;
+    }
+
+    /* 26.02.25 수정 */
+    .modal__setting__cont {
+        flex-direction: column;
+        /*align-items: center;*/
+        gap: 2rem;
+    }
+
+    .modal__setting__menus {
+        flex-direction: row;
+        gap:2rem;
+    }
+
+    .modal__display__setting, .modal__fontsize__setting {
+        padding: 1rem 0;
+    }
+
+    .modal__display__setting, .modal__fontsize__setting {
+        flex-direction: column;
+        min-width: 16rem;
+    }
+
+    .modal__display__setting .modal__setting__displaymode {
+        min-width: 100%;
+        height: 18rem;
+    }
+
+    .modal__displaymode__cont .displaymode__option, .modal__fontsize__cont .fontsize__option {
+        padding: 0;
+    }
+
+    .modal__setting__menus .modal__setting__menuitems {
+        border-bottom: none;
+        justify-content: flex-start;
+        gap: .5rem;padding: .5rem 0;
+    }
+
+    .setting__menu__ic {
+        display:none;
+    }
+
+    .modal__setting__menu {
+        display:flex;
+        justify-content:center;
+        min-width: 18rem;
+        width: 12rem;
+        border-bottom: 1px solid var(--bg-light1);
+    }
+
+    .modal__displaymode__cont, .modal__fontsize__cont {
+        padding: 0 .2rem;
+    }
+    
+    /* 26.02.25 수정 */
+    .modal__display__setting, .modal__fontsize__setting {
+        height: 18rem;
+    }
+    /* 26.02.25 수정 */
+    .modal__display__setting .modal__setting__displaymode {
+        height: 18rem;
+    }
+}
+
+@media (max-width: 560px) {
+    
+    .modal__dl__wrapper  {
+        min-width:20rem;
+        min-height:12rem;
+    }
+
+
+    .feedback__modal {
+        min-width: 18rem;
+    }
+
+    /* 26.02.25 수정 */
+    .modal__display__setting, .modal__fontsize__setting {
+        width:20rem;
+        padding: 0;
+    }
+
+    /* .setting_rd input[type="radio"] + .setting_rd__custom::after,
+    .setting_rd input[type="radio"]:checked + .setting_rd__custom::after {
+        content: "";
+        transform: scale(1.1);
+        transform-origin: top;
+        will-change: transform;
+        backface-visibility: hidden;
+    } */
+    /* 26.02.25 수정 */
+    .modal__displaymode__cont {
+        display:flex;
+        flex-direction:column;
+        gap:lrem;
+        justify-content:flex-start;
+        margin:3rem 0 2rem 0;
+        width: 20rem;
+        padding:0 0 0 1rem;
+    }
+    /* 26.02.25 수정 */
+    .modal__fontsize__cont {
+        display:flex;
+        flex-direction:column;
+        gap:lrem;
+        justify-content:flex-start;
+        margin:3rem 0 2rem 0;
+        width: 20rem;
+        padding:0 0 0 1rem;
+    }
+}
+
+@media (max-width: 390px) {
+    
+    .modal__dl__wrapper  {
+        min-width:16rem;
+        min-height:12rem;
+    }
+
+
+    .feedback__modal {
+        min-width: calc(100% - 1rem);
+    }
+
+}
