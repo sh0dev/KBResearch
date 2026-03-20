@@ -1,0 +1,13 @@
+a) 수정
+
+
+
+
+main.css, modal.css 교체
+스크린 샷 참조
+테스트 후 문제 시 수정 사항 공유 요청
+
+
+b) font size test
+
+해당 폴더 스크린 샷 참고
