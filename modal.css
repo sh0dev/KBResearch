@@ -1,5 +1,5 @@
-@import url('main.css');
-@import url('tokens.css');
+@import url('https://rc.kbsec.com/reNew/images/chatbotAI/main.css');
+@import url('https://rc.kbsec.com/reNew/images/chatbotAI/tokens.css');
 
 
 .modal__root {
@@ -65,13 +65,13 @@
 .modal__close_ic {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/cancel_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/cancel_ic.svg');
     background-repeat: no-repeat;
     background-position:center;
 }
 
 [data-theme="dark"] .modal__close_ic {
-    background-image:url('/reNew/images/chatbotAI/icons/cancel_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/cancel_ic_w.svg');
 }
 
 .modal__title__wrapper {
@@ -269,7 +269,7 @@
 
 /* 10.13 수정 */
 .setting__menu__ic {
-    background-image:url('/reNew/images/chatbotAI/icons/modal_toggle_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/modal_toggle_ic.svg');
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -278,7 +278,7 @@
 }
 /* 10.13 수정 */
 [data-theme="dark"] .setting__menu__ic {
-    background-image:url('/reNew/images/chatbotAI/icons/modal_toggle_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/modal_toggle_ic_w.svg');
 }
 /* 10.13 수정 */
 .setting__menu__ic span {

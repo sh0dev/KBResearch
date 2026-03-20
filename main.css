@@ -1,4 +1,4 @@
-@import url('utils.css');
+@import url('https://rc.kbsec.com/reNew/css/chatbotAI/utils.css');
 
 /* AI */
 .ai-response {
@@ -318,14 +318,14 @@ textarea:focus {
     height:3.5rem;
     transform: translate(0px, 3px);
     margin-right:.5rem;
-    background-image:url('/reNew/images/chatbotAI/icons/G_w.png');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/G_w.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
 
 [data-theme="dark"] .nav__logo_tt {
-    background-image: url('/reNew/images/chatbotAI/icons/G_d.png');
+    background-image: url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/G_d.png');
 }
 
 .nav__logo_t {
@@ -335,7 +335,7 @@ textarea:focus {
 .nav__logo {
     width:2rem;
     height:2rem;
-    background-image:url('/reNew/images/chatbotAI/n5logo.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/n5logo.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
@@ -343,7 +343,7 @@ textarea:focus {
 }
 
 [data-theme="dark"] .nav__logo {
-    background-image:url('/reNew/images/chatbotAI/n5logo_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/n5logo_w.svg');
 }
 
 .sd__toggle__wrapper { width:7rem; text-align:end; }
@@ -351,32 +351,32 @@ textarea:focus {
 .nav__icon {
     width:1.5rem;
     height:1.5rem;
-    background-image:url('/reNew/images/chatbotAI/icons/fd_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/fd_ic.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
 
-[data-theme="dark"] .nav__icon { background-image:url('/reNew/images/chatbotAI/icons/fd_ic_w.svg')}
+[data-theme="dark"] .nav__icon { background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/fd_ic_w.svg')}
 
 .nav__icon2 {
     width:1.2rem;
     height:1.2rem;
-    background-image:url('/reNew/images/chatbotAI/icons/sd_off_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sd_off_ic.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
     transform: translate(-12px, 5px);
 }
 
-[data-theme="dark"] .nav__icon2 { background-image:url('/reNew/images/chatbotAI/icons/sd_off_ic_w.svg')}
+[data-theme="dark"] .nav__icon2 { background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sd_off_ic_w.svg')}
 
 .nav__icon2_open {
-    background-image:url('/reNew/images/chatbotAI/icons/sd_ic.svg') !important;
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sd_ic.svg') !important;
 }
 
 [data-theme="dark"] .nav__icon2_open {
-    background-image:url('/reNew/images/chatbotAI/icons/sd_ic_w.svg') !important;
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sd_ic_w.svg') !important;
 }
 
 .nav__feedback_btn {
@@ -499,37 +499,37 @@ textarea:focus {
 .sidebar__cont__ic1, .sidebar__cont__ic2, .sidebar__cont__ic3 { width:1rem; height:1rem; }
 
 .sidebar__cont__ic1 {
-    background-image:url('/reNew/images/chatbotAI/icons/new_chat_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/new_chat_ic.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
 
 .sidebar__cont__ic2 {
-    background-image:url('/reNew/images/chatbotAI/icons/menu_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/menu_ic.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
 
 .sidebar__cont__ic3 {
-    background-image:url('/reNew/images/chatbotAI/icons/setting_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/setting_ic.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
 
 [data-theme="dark"] .sidebar__cont__ic1 {
-    background-image: url('/reNew/images/chatbotAI/icons/new_chat_ic_w.svg');
+    background-image: url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/new_chat_ic_w.svg');
 }
 
 
 [data-theme="dark"] .sidebar__cont__ic2 {
-    background-image:url('/reNew/images/chatbotAI/icons/menu_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/menu_ic_w.svg');
 }
 
 [data-theme="dark"] .sidebar__cont__ic3 {
-    background-image:url('/reNew/images/chatbotAI/icons/setting_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/setting_ic_w.svg');
 }
 
 .sidebar__cont_icons {
@@ -585,7 +585,7 @@ textarea:focus {
     border:1px solid var(--bg2);
 }
 .sidebar__cont_on .top__btn .newchat_btn_wrapper:hover {
-    /* content:url('/reNew/images/chatbotAI/icons/b_ic.svg');
+    /* content:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/b_ic.svg');
     border:1px solid var(--primary); */
     background:var(--black);
     color:var(--primary);
@@ -596,16 +596,16 @@ textarea:focus {
 }
 
 .sidebar__cont_on .top__btn .newchat_btn_wrapper .newchat_btn_icon {
-    background-image:url('/reNew/images/chatbotAI/icons/new_chat_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/new_chat_ic.svg');
     width:1.25rem;
     height:1.25rem;
     background-repeat: no-repeat;
     background-position:center; background-size:contain;
 }
-[data-theme="dark"] .sidebar__cont_on .top__btn .newchat_btn_wrapper .newchat_btn_icon { background-image:url('/reNew/images/chatbotAI/icons/new_chat_ic_w.svg'); }
+[data-theme="dark"] .sidebar__cont_on .top__btn .newchat_btn_wrapper .newchat_btn_icon { background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/new_chat_ic_w.svg'); }
 .sidebar__cont_on .top__btn .newchat_btn_wrapper:hover .newchat_btn_icon,
 [data-theme="dark"] .sidebar__cont_on .top__btn .newchat_btn_wrapper:hover .newchat_btn_icon {
-    background-image:url('/reNew/images/chatbotAI/icons/new_chat_ic_c.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/new_chat_ic_c.svg');
 } 
 
 /* 12.29 �닔�젙 */
@@ -695,7 +695,7 @@ textarea:focus {
 .sidebar__cont_on .sidebar__cont_lists .sidebar__list__wrapper .list_toggle_icon {
     width:.8rem;
     height:.8rem;
-    background-image:url('/reNew/images/chatbotAI/icons/toggle_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/toggle_ic.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
@@ -703,7 +703,7 @@ textarea:focus {
 
 /* 12 23 */
 .n_ic {
-    background-image:url('/reNew/images/chatbotAI/icons/toggle_ic_i.svg') !important;
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/toggle_ic_i.svg') !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
@@ -712,14 +712,14 @@ textarea:focus {
 .sidebar__cont_on .sidebar__cont_lists .sidebar__list__wrapper .list_toggle_icon {
     width:.8rem;
     height:.8rem;
-    background-image:url('/reNew/images/chatbotAI/icons/toggle_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/toggle_ic.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
 
 [data-theme="dark"] .sidebar__cont_on .sidebar__cont_lists .sidebar__list__wrapper .list_toggle_icon {
-    background-image:url('/reNew/images/chatbotAI/icons/toggle_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/toggle_ic_w.svg');
 }
 
 .sidebar__cont_on .sidebar__cont_lists .sidebar__list__wrapper > ul {
@@ -811,13 +811,13 @@ textarea:focus {
 .sd__menu__dot__ic {
     width:.8rem;
     height:.8rem;
-    background-image:url('/reNew/images/chatbotAI/icons/menu_dot_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/menu_dot_ic.svg');
     background-position: center;
     background-repeat: no-repeat;transform:translateY(1px);
 }
 
 [data-theme="dark"] .sd__menu__dot__ic {
-    background-image:url('/reNew/images/chatbotAI/icons/menu_dot_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/menu_dot_ic_w.svg');
 }
 
 /* 12.29 �닔�젙 */
@@ -890,31 +890,31 @@ textarea:focus {
 }
 
 .sidebar__menu__ic1 {
-    background-image:url('/reNew/images/chatbotAI/icons/bm_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/bm_ic.svg');
 }
 
 .sidebar__menu__ic2 {
-    background-image:url('/reNew/images/chatbotAI/icons/bin_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/bin_ic.svg');
 }
 
 [data-theme="dark"] .sidebar__menu__ic1 {
-    background-image:url('/reNew/images/chatbotAI/icons/bm_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/bm_ic_w.svg');
 }
 
 [data-theme="dark"] .sidebar__menu__ic2 {
-    background-image:url('/reNew/images/chatbotAI/icons/bin_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/bin_ic_w.svg');
 }
 
 .sidebar__cont__ic5 {
     width:1.5rem;
     height:1.5rem;
-    background-image:url('/reNew/images/chatbotAI/icons/setting_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/setting_ic.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
 }
 [data-theme="dark"] .sidebar__cont__ic5 {
-    background-image:url('/reNew/images/chatbotAI/icons/setting_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/setting_ic_w.svg');
 }
 
 /* 11.17 �닔�젙 */
@@ -1084,97 +1084,97 @@ textarea:focus {
     background-size:contain;background-repeat:no-repeat;}
 
 .topbtn__item .topbtn__ic1 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_0.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_0.svg')
 }
 
 .topbtn__item .topbtn__ic2 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_2.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_2.svg')
 }
 
 .topbtn__item .topbtn__ic8 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_8.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_8.svg')
 }
 
 .topbtn__item .topbtn__ic9 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_9.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_9.svg')
 }
 
 .topbtn__item .topbtn__ic5 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_5.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_5.svg')
 }
 
 .topbtn__item .topbtn__ic7 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_7.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_7.svg')
 }
 
 .topbtn__item .topbtn__ic10 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_10.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_10.svg')
 }
 .topbtn__item .topbtn__ic6 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_6.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_6.svg')
 }
 .topbtn__item .topbtn__ic3 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_3.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_3.svg')
 }
 
 .topbtn__item .topbtn__ic11 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_11.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_11.svg')
 }
 
 /* 12.17 �닔�젙 */
 .topbtn__item .topbtn__ic12 {
-    background-image:url('/reNew/images/chatbotAI/icons/search_ic.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/search_ic.svg')
 }
 /* 12.17 �닔�젙 */
 .topbtn__item .topbtn__ic13 {
-    background-image:url('/reNew/images/chatbotAI/icons/sttop_ic.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sttop_ic.svg')
 }
 
 [data-theme="dark"] .topbtn__item .topbtn__ic1 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_0.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_0.svg')
 }
 
 [data-theme="dark"] .topbtn__item .topbtn__ic2 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_2.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_2.svg')
 }
 
 [data-theme="dark"] .topbtn__item .topbtn__ic8 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_8.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_8.svg')
 }
 
 [data-theme="dark"] .topbtn__item .topbtn__ic9 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_9.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_9.svg')
 }
 
 [data-theme="dark"] .topbtn__item .topbtn__ic5 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_5.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_5.svg')
 }
 
 [data-theme="dark"] .topbtn__item .topbtn__ic7 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_7.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_7.svg')
 }
 
 [data-theme="dark"] .topbtn__item .topbtn__ic10 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_10.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_10.svg')
 }
 [data-theme="dark"] .topbtn__item .topbtn__ic6 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_6.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_6.svg')
 }
 [data-theme="dark"] .topbtn__item .topbtn__ic3 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_3.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_3.svg')
 }
 
 [data-theme="dark"] .topbtn__item .topbtn__ic11 {
-    background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_11.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/g__ic_d_11.svg')
 }
 
 /* 12.17 �닔�젙 */
 [data-theme="dark"] .topbtn__item .topbtn__ic12 {
-    background-image:url('/reNew/images/chatbotAI/icons/search_ic_d.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/search_ic_d.svg')
 }
 /* 12.17 �닔�젙 */
 [data-theme="dark"] .topbtn__item .topbtn__ic13 {
-    background-image:url('/reNew/images/chatbotAI/icons/sttop_ic_d.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sttop_ic_d.svg')
 }
 
 .content__topbtn_group .topbtn__item .topbtn__txt {}
@@ -1225,7 +1225,7 @@ textarea:focus {
     width:6.5rem;
     height:3rem;
     /* 12.15 �닔�젙 */
-    background-image:url('/reNew/images/chatbotAI/icons/G_w2.png');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/G_w2.png');
     background-repeat:no-repeat;
     background-position: center;
     background-size:contain;
@@ -1233,7 +1233,7 @@ textarea:focus {
 
 
 [data-theme="dark"] .content__bt_cont .content__feed_wrapper .content__feed__logo__wrapper .feed__logo_ic {
-    background-image:url('/reNew/images/chatbotAI/icons/G_d2.png');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/G_d2.png');
 }
 
 
@@ -1438,18 +1438,18 @@ textarea:focus {
 .content__chat__btn .chat__btn .chat__btn__ic  {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/send_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/send_ic.svg');
     background-repeat: no-repeat;
     background-size: contain;
     transform:translate(-1px, 1px);
 }
 
 [data-theme="dark"] .content__chat__btn .chat__btn .chat__btn__ic {
-    background-image:url('/reNew/images/chatbotAI/icons/send_ic_w.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/send_ic_w.svg')
 }
 
 .content__chat__wrapper .content__chat__input_box .content__chat__btn .chat__btn:hover .chat__btn__ic {
-    background-image:url('/reNew/images/chatbotAI/icons/send_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/send_ic.svg');
 }
 
 /* prompt */
@@ -1596,7 +1596,7 @@ textarea:focus {
     display:flex;
     align-items:center;
     justify-content:center;
-    /*background:url('/reNew/images/chatbotAI/icons/fd_sm.svg');
+    /*background:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/fd_sm.svg');
     width:100%;
     height:100%;
     */
@@ -1605,7 +1605,7 @@ textarea:focus {
     background-repeat:no-repeat;
 }
 [data-theme="dark"] .prompt__query_box::before {
-    background-image:url('/reNew/images/chatbotAI/icons/fd_sm_d.svg')
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/fd_sm_d.svg')
 }
 .prompt__content .prompt__wrapper__query .prompt__cont .prompt__query_box .prompt__txt_adjust {
     display:flex;
@@ -1695,7 +1695,7 @@ textarea:focus {
 .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic1 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/tu_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/tu_ic.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1704,7 +1704,7 @@ textarea:focus {
 .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic2{
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/td_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/td_ic.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1713,7 +1713,7 @@ textarea:focus {
 .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic3 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/rf_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/rf_ic.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1722,7 +1722,7 @@ textarea:focus {
 .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic4 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/li_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/li_ic.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1731,7 +1731,7 @@ textarea:focus {
 .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic5 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/bm_s_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/bm_s_ic.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1740,7 +1740,7 @@ textarea:focus {
 .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic6 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/menu_dot_s_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/menu_dot_s_ic.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1752,7 +1752,7 @@ textarea:focus {
     width:1rem;
     height:1rem;
     /* background-image:url('../icons/md_ic2.svg') */
-    background-image:url('/reNew/images/chatbotAI/icons/md_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/md_ic.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1762,7 +1762,7 @@ textarea:focus {
 .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic8 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/fd_md_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/fd_md_ic.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1773,7 +1773,7 @@ textarea:focus {
 [data-theme="dark"] .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic1 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/tu_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/tu_ic_w.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1782,7 +1782,7 @@ textarea:focus {
 [data-theme="dark"] .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic2{
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/td_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/td_ic_w.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1791,7 +1791,7 @@ textarea:focus {
 [data-theme="dark"] .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic3 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/rf_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/rf_ic_w.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1800,7 +1800,7 @@ textarea:focus {
 [data-theme="dark"] .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic4 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/li_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/li_ic_w.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1809,7 +1809,7 @@ textarea:focus {
 [data-theme="dark"] .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic5 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/bm_s_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/bm_s_ic_w.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1818,7 +1818,7 @@ textarea:focus {
 [data-theme="dark"] .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic6 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/menu_dot_s_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/menu_dot_s_ic_w.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1829,7 +1829,7 @@ textarea:focus {
     width:1rem;
     height:1rem;
     /*background-image:url('../icons/md_ic2_d.svg') */
-    background-image:url('/reNew/images/chatbotAI/icons/md_ic_d.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/md_ic_d.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1839,7 +1839,7 @@ textarea:focus {
 [data-theme="dark"] .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic8 {
     width:1rem;
     height:1rem;
-    background-image:url('/reNew/images/chatbotAI/icons/fd_md_ic_d.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/fd_md_ic_d.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -2219,13 +2219,13 @@ textarea:focus {
 .sc__dr__ic {
     width:.78rem;
     height:.8rem;
-    background-image:url('/reNew/images/chatbotAI/icons/arrow_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/arrow_ic.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position:center;
 }
 [data-theme="dark"] .sc__dr__ic {
-    background-image:url('/reNew/images/chatbotAI/icons/arrow_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/arrow_ic_w.svg');
 }
 
 
@@ -2261,13 +2261,13 @@ textarea:focus {
 .right__close_btn {
     width:.8rem;
     height:.8rem;
-    background-image:url('/reNew/images/chatbotAI/icons/cancel_ic.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/cancel_ic.svg');
     background-repeat:no-repeat;
     background-size:contain;
 }
 
 [data-theme="dark"] .right__close_btn {
-    background-image:url('/reNew/images/chatbotAI/icons/cancel_ic_w.svg');
+    background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/cancel_ic_w.svg');
 }
 
 .right__popup__menu__items {
@@ -3905,47 +3905,47 @@ dialog {
         width:3.2rem;
         height:2rem;
         margin-right:.5rem;
-        background-image:url('/reNew/images/chatbotAI/icons/G_w.png');
+        background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/G_w.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size:contain;
     }
 
     [data-theme="dark"] .nav__logo__t_mo {
-        background-image:url('/reNew/images/chatbotAI/icons/G_d.png');
+        background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/G_d.png');
     }
 
     .nav__logo_mo_i {
         width:1.6rem;
         height:2rem;
         transform: translate(1px, -1px);
-        background-image:url('/reNew/images/chatbotAI/n5logo.svg');
+        background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/n5logo.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size:contain;
     }
     
      [data-theme="dark"] .nav__logo_mo_i {
-        background-image:url('/reNew/images/chatbotAI/n5logo_w.svg');
+        background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/n5logo_w.svg');
     }
 
     .sd__off__ic__ad {
         width:1.3rem;
         height:1.3rem;
-        background-image:url('/reNew/images/chatbotAI/icons/sd_off_ic.svg');
+        background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sd_off_ic.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size:contain;
     }
 
     [data-theme="dark"] .sd__off__ic__ad {
-        background-image:url('/reNew/images/chatbotAI/icons/sd_off_ic_w.svg');
+        background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sd_off_ic_w.svg');
     }
 
     .nav__logo_mo {
         width:3rem;
         height:2rem;
-        background-image:url('/reNew/images/chatbotAI/n5logo.svg');
+        background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/n5logo.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size:contain;
@@ -3953,16 +3953,16 @@ dialog {
     }
 
     [data-theme="dark"] .nav__logo_mo {
-        background-image: url('/reNew/images/chatbotAI/n5logo_w.svg');
+        background-image: url('https://rc.kbsec.com/reNew/images/chatbotAI/n5logo_w.svg');
     }
 
     .nav__logo__box_mo:hover .nav__logo_mo {
-        background-image:url('/reNew/images/chatbotAI/icons/sd_ic.svg');
+        background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sd_ic.svg');
         background-size:auto;
     }
 
     [data-theme="dark"] .nav__logo__box_mo:hover .nav__logo_mo {
-        background-image:url('/reNew/images/chatbotAI/icons/sd_ic_w.svg');
+        background-image:url('https://rc.kbsec.com/reNew/images/chatbotAI/icons/sd_ic_w.svg');
         background-size:auto;
     }
 
