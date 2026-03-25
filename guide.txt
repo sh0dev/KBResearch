@@ -1,7 +1,138 @@
-a) font size test
+a) 출처
 
 
 
 
-main.css, tokens.css 교체
+main.css, modal.css 교체
+하단 코드 스크린 샷 참조 하여 넣기
 테스트 후 문제 시 수정 사항 공유 요청
+
+코드 1: 버튼
+<div class="prompt__query__exlinks">
+    <button type="button" id="prompt-exlinks-box" class="prompt__exlinks" data-target="right-popup-links">
+        <div class="prompt__exlinks_txt1">출처</div>
+        <div class="exlinks__img__group">
+            <img src="icons/k__ic.svg" alt="출처 카카오" class="exlink__ic">
+            <img src="icons/g__ic.svg" alt="출처 유튜브" class="exlink__ic">
+            <img src="icons/n__ic.svg" alt="출처 네이버" class="exlink__ic">
+        </div>
+        <div class="prompt__exlinks_txt2">외의 사이트</div>
+    </button>
+</div>
+
+
+
+
+
+코드 2: 모달
+ <template id="modal-exlinks" hidden>
+            <div id="" class="modal__content__box">
+                <div class="modal__content2 modal__content__adjust">
+                        <div class="modal__setting__wrapper">
+                            <div class="modal__close__wrapper">
+                                <button type="button" id="modal-close" class="modal__close" aria-label="닫기"><div class="modal__close_ic"><span class="sr_only">창 닫기</span></div></button>
+                            </div>
+                        
+                            <div class="modal__title__wrapper"><p class="modal__title_m">답변 출처</p></div>
+                            <div class="modal__exlinks__box">
+                                <div id="right-popup-links" class="right__popup__links">
+                                    <div class="popup__links__wrapper">
+                                        <ul id="right-popup-links-items" class="right__popup__links__items">
+                                            <li id="right-links-item" class="right__links__item">
+                                                <div class="right__links__ic__group">
+                                                    <span class="right__links__ic__src">유튜브</span>
+                                                    <img src="icons/g__ic.svg" alt="출처 유튜브" id="right-links-ic" class="right__links__ic"></div>
+                                                <div class="right__links__title__wrapper">
+                                                    <a id="right-links-title" class="right__links__title" href="/" target="_blank">
+                                                        주식시장
+                                                    </a>
+                                                </div>
+                                                <div id="right-links-des" class="right__links__txt">
+                                                    <p class="right__links__p">
+                                                        <a href="/" target="_blank">
+                                                            중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.
+                                                            중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.
+                                                            중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.
+                                                            중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.
+                                                            중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.
+                                                            중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li id="right-links-item" class="right__links__item">
+                                                <div class="right__links__ic__group">
+                                                    <span class="right__links__ic__src">유튜브</span>
+                                                    <img src="icons/g__ic.svg" alt="출처 유튜브" id="right-links-ic" class="right__links__ic"></div>
+                                                <div class="right__links__title__wrapper">
+                                                    <a id="right-links-title" class="right__links__title" href="/" target="_blank">
+                                                        주식시장
+                                                    </a>
+                                                </div>
+                                                <div id="right-links-des" class="right__links__txt">
+                                                    <p class="right__links__p">
+                                                        <a href="/" target="_blank">중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.</a>
+                                                    </p>
+                                                </div>
+                                                <pre></pre>
+                                            </li>
+                                            <li id="right-links-item" class="right__links__item">
+                                                <div class="right__links__ic__group">
+                                                    <span class="right__links__ic__src">유튜브</span>
+                                                    <img src="icons/g__ic.svg" alt="출처 유튜브" id="right-links-ic" class="right__links__ic"></div>
+                                                <div class="right__links__title__wrapper">
+                                                    <a id="right-links-title" class="right__links__title" href="/" target="_blank">
+                                                        주식시장
+                                                    </a>
+                                                </div>
+                                                <div id="right-links-des" class="right__links__txt">
+                                                    <p class="right__links__p">
+                                                        <a href="/" target="_blank">중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.</a>
+                                                    </p>
+                                                </div>
+                                                <pre></pre>
+                                            </li>
+                                            <li id="right-links-item" class="right__links__item">
+                                                <div class="right__links__ic__group">
+                                                    <span class="right__links__ic__src">유튜브</span>
+                                                    <img src="icons/g__ic.svg" alt="출처 유튜브" id="right-links-ic" class="right__links__ic"></div>
+                                                <div class="right__links__title__wrapper">
+                                                    <a id="right-links-title" class="right__links__title" href="/" target="_blank">
+                                                        주식시장
+                                                    </a>
+                                                </div>
+                                                <div id="right-links-des" class="right__links__txt">
+                                                    <p class="right__links__p">
+                                                        <a href="/" target="_blank">중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.</a>
+                                                    </p>
+                                                </div>
+                                                <pre></pre>
+                                            </li>
+                                            <li id="right-links-item" class="right__links__item">
+                                                <div class="right__links__ic__group">
+                                                    <span class="right__links__ic__src">유튜브</span>
+                                                    <img src="icons/g__ic.svg" alt="출처 유튜브" id="right-links-ic" class="right__links__ic"></div>
+                                                <div class="right__links__title__wrapper">
+                                                    <a id="right-links-title" class="right__links__title" href="/" target="_blank">
+                                                        주식시장
+                                                    </a>
+                                                </div>
+                                                <div id="right-links-des" class="right__links__txt">
+                                                    <p class="right__links__p">
+                                                        <a href="/" target="_blank">중동 긴장 고조가 한국 시장에 미치는 영향은 주로 에너지 가격 변동, 수출입 불확실성, 그리고 금융시장 변동성으로 나타나고 있습니다.</a>
+                                                    </p>
+                                                </div>
+                                                <pre></pre>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        
+                </div>
+            </div>
+        </template>
+
