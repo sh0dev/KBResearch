@@ -4197,7 +4197,7 @@ dialog {
         max-height: 100dvh;
         height: 100%;
         justify-content: unset;
-        overflow-y: hidden;
+        overflow-y: scroll !important;
         padding:0 0 1rem 0 !important;
     }
 
