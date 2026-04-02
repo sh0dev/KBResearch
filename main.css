@@ -1495,7 +1495,7 @@ textarea:focus {
     justify-content:flex-start;
     height: 80vh;
     padding:0 0 6rem 0;
-    overflow-y: auto;
+    overflow-y: scroll !important;
     -webkit-overflow-scrolling: touch;
     box-shadow: none;
     -ms-overflow-style: none;
@@ -3849,8 +3849,10 @@ dialog {
     .content__bt_cont .content__feed_wrapper .content__feed_box {
         padding:1.2rem 2rem;
     }
-        .prompt__content__box .prompt__content__wrapper .prompt__content {
+
+    .prompt__content__box .prompt__content__wrapper .prompt__content {
         height: 76vh;
+        touch-action: pan-y;
     }
 
 
@@ -4562,7 +4564,6 @@ dialog {
         height:unset;
     }
 }
-
 
 @media (max-width: 768px) {
     .stock-price-details {
