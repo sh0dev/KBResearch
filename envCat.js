@@ -1,71 +1,33 @@
 (function () {
-    const doc = document.documentElement;
-    const ua = navigator.userAgent;
-    const maxTouchPoints = navigator.maxTouchPoints || 0;
+  const doc = document.documentElement;
+  if (doc.dataset.browserDetected === '1') return;
+  doc.dataset.browserDetected = '1';
 
-    if (doc.dataset.browserDetected === '1') return;
-    doc.dataset.browserDetected = '1';
+  const ua = navigator.userAgent;
+  const forceChromePatch =
+    doc.hasAttribute('data-force-chrome-pre106') ||
+    location.search.includes('forceChromePre106=1');
 
-    function detectBrowserEnv(uaString) {
-        const isIPhone = /iPhone/.test(uaString);
-        const isIPad =
-            /iPad/.test(uaString) ||
-            (/Macintosh/.test(uaString) && maxTouchPoints > 1);
+  const chromeMatch = ua.match(/Chrome\/(\d+)/) || ua.match(/CriOS\/(\d+)/);
+  const chromeVersion = chromeMatch ? parseInt(chromeMatch[1], 10) : null;
 
-        const isIOS = isIPhone || isIPad;
-        const isAndroid = /Android/.test(uaString);
+  const isExcludedBrowser =
+    /Edg\//.test(ua) ||
+    /EdgA\//.test(ua) ||
+    /EdgiOS\//.test(ua) ||
+    /OPR\//.test(ua) ||
+    /SamsungBrowser\//.test(ua) ||
+    /Firefox\//.test(ua) ||
+    /FxiOS\//.test(ua) ||
+    /\bwv\b/.test(ua);
 
-        const isEdgeiOS = /EdgiOS\//.test(uaString);
-        const isFirefoxiOS = /FxiOS\//.test(uaString);
-        const isChromeiOS = /CriOS\//.test(uaString);
+  const isChromePre106 =
+    !!chromeVersion && !isExcludedBrowser && chromeVersion < 106;
 
-        const isSafariiOS =
-            isIOS &&
-            /Safari\//.test(uaString) &&
-            /Version\//.test(uaString) &&
-            !isChromeiOS &&
-            !isFirefoxiOS &&
-            !isEdgeiOS;
+  const el = document.querySelector('.content__wrapper__prompt');
+  if (!el) return;
 
-        const isSamsungBrowser = /SamsungBrowser\//.test(uaString);
-        const isEdgeAndroid = /EdgA\//.test(uaString);
-        const isOperaAndroid = /OPR\//.test(uaString);
-        const isWebView = /\bwv\b/.test(uaString);
-
-        const chromeMatch = uaString.match(/Chrome\/(\d+)/);
-        const chromeVersion = chromeMatch ? parseInt(chromeMatch[1], 10) : null;
-
-        const isChromeAndroid =
-            isAndroid &&
-            !!chromeVersion &&
-            !isSamsungBrowser &&
-            !isEdgeAndroid &&
-            !isOperaAndroid &&
-            !isWebView;
-
-        return {
-            ua: uaString,
-            isIOS,
-            isAndroid,
-            isChromeiOS,
-            isSafariiOS,
-            isChromeAndroid,
-            chromeVersion,
-            isChromePre106: isChromeAndroid && chromeVersion < 106,
-        };
-    }
-
-    const env = detectBrowserEnv(ua);
-    console.log('[browser-env]', env);
-
-    if (env.isSafariiOS) doc.classList.add('ios-safari');
-    if (env.isChromeiOS) doc.classList.add('ios-chrome');
-
-    if (env.isChromeAndroid) {
-        const elScrollC = document.querySelector(".prompt__content")
-
-        if (env.isChromePre106) {
-            elScrollC.classList.add('chrome-pre');
-        }
-    }
+  if (isChromePre106 || forceChromePatch) {
+    el.classList.add('chrome-pre106');
+  }
 })();
