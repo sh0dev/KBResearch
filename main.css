@@ -36,7 +36,7 @@
     font-family: monospace;
 }
 
-/* AI �뿉�윭 �뒪���씪 */
+/* AI  뿉 윭  뒪   씪 */
 .ai-error {
     padding: 15px;
     background-color: #fff5f5;
@@ -74,7 +74,7 @@
     margin-bottom: 3px;
 }
 
-/* 梨꾪똿 �쁺�뿭 �뒪���씪 */
+/* 梨꾪똿  쁺 뿭  뒪   씪 */
 .content__chat__area {
     padding: 1rem;
     max-height: 60vh;
@@ -115,10 +115,10 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* 10.13 �닔�젙 */
+    /* 10.13  닔 젙 */
     scrollbar-color: var(--sc3) transparent;
 }
-/* 11.17 �닔�젙 */
+/* 11.17  닔 젙 */
 body {
     font-size:1rem;
 }
@@ -126,7 +126,7 @@ body {
 @layer reset { *, *::after, *::before { box-sizing: border-box; } html, body { height:100%; } body, ul, p, h1, h2, h3 { margin:0; }}
 @layer base { a { color:var(--bg-dark); text-decoration:none; }
     body {
-        /* 10.01 �닔�젙 */
+        /* 10.01  닔 젙 */
         /* keep */
         max-height:100dvh;
         @supports not (max-height: 100dvh) {
@@ -174,7 +174,7 @@ body {
         flex-wrap: wrap;
         margin:1rem 0;
     }
-    /* 26.02.25 �닔�젙 */
+    /* 26.02.25  닔 젙 */
     .query__rl__btn, .query__rl__btn__sm3 {
         display:grid;
         gap:.6rem;
@@ -203,7 +203,7 @@ body {
 
 
 .chrome-pre {
-    min-height: calc(100% - 206px) !important;
+    min-height: calc(100% - 25px) !important;
 }
 
 body {
@@ -425,7 +425,7 @@ textarea:focus {
     max-width: 100%;
     overflow:hidden;
 }
-/* ios : ipad �뿉�꽌 calc(100vh - 5rem) �븘�슂 */
+/* ios : ipad  뿉 꽌 calc(100vh - 5rem)  븘 슂 */
 .main__wrapper {
     max-width: 100%;
     display: flex;
@@ -612,7 +612,7 @@ textarea:focus {
     background-image:url('/reNew/images/chatbotAI/icons/new_chat_ic_c.svg');
 } 
 
-/* 12.29 �닔�젙 */
+/* 12.29  닔 젙 */
 .sidebar__cont_on .sidebar__cont_lists {
     width:87%;
     display:flex;
@@ -824,7 +824,7 @@ textarea:focus {
     background-image:url('/reNew/images/chatbotAI/icons/menu_dot_ic_w.svg');
 }
 
-/* 12.29 �닔�젙 */
+/* 12.29  닔 젙 */
 .sidebar__cont_on .sidebar__cont_bt {
     display:flex;
     flex-direction:column;
@@ -840,7 +840,7 @@ textarea:focus {
 }
 
 
-/* 12.29 �닔�젙 */
+/* 12.29  닔 젙 */
 .sidebar_limit__wrapper {
     width:100%;
     display:flex;
@@ -849,7 +849,7 @@ textarea:focus {
     align-items:center;
 }
 
-/* 12.29 �닔�젙 */
+/* 12.29  닔 젙 */
 .sidebar_limit__bt {
     width:100%;
     display:flex;
@@ -861,7 +861,7 @@ textarea:focus {
 }
 
 
-/* 12.29 �닔�젙 */
+/* 12.29  닔 젙 */
 .limit_box {
     display:flex;
     flex-direction:row;
@@ -874,13 +874,13 @@ textarea:focus {
     border-radius:var(--radius1);
 }
 
-/* 12.29 �닔�젙 */
+/* 12.29  닔 젙 */
 .limit_txt, .limit_count_txt {
     font-size:var(--sm-kor);
     color:var(--bg-dark);
 }
 
-/* 12.29 �닔�젙 */
+/* 12.29  닔 젙 */
 .limit_count {
     font-size:var(--sm-kor);
     opacity: .6;
@@ -921,7 +921,7 @@ textarea:focus {
     background-image:url('/reNew/images/chatbotAI/icons/setting_ic_w.svg');
 }
 
-/* 11.17 �닔�젙 */
+/* 11.17  닔 젙 */
 .local_mn {
     margin:.2rem 0 0 0;
     position:absolute;
@@ -1125,11 +1125,11 @@ textarea:focus {
     background-image:url('/reNew/images/chatbotAI/icons/g__ic_11.svg')
 }
 
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 .topbtn__item .topbtn__ic12 {
     background-image:url('/reNew/images/chatbotAI/icons/search_ic.svg')
 }
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 .topbtn__item .topbtn__ic13 {
     background-image:url('/reNew/images/chatbotAI/icons/sttop_ic.svg')
 }
@@ -1172,11 +1172,11 @@ textarea:focus {
     background-image:url('/reNew/images/chatbotAI/icons/g__ic_d_11.svg')
 }
 
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 [data-theme="dark"] .topbtn__item .topbtn__ic12 {
     background-image:url('/reNew/images/chatbotAI/icons/search_ic_d.svg')
 }
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 [data-theme="dark"] .topbtn__item .topbtn__ic13 {
     background-image:url('/reNew/images/chatbotAI/icons/sttop_ic_d.svg')
 }
@@ -1228,7 +1228,7 @@ textarea:focus {
 .content__bt_cont .content__feed_wrapper .content__feed__logo__wrapper .feed__logo_ic {
     width:6.5rem;
     height:3rem;
-    /* 12.15 �닔�젙 */
+    /* 12.15  닔 젙 */
     background-image:url('/reNew/images/chatbotAI/icons/G_w2.png');
     background-repeat:no-repeat;
     background-position: center;
@@ -1388,7 +1388,7 @@ textarea:focus {
 }
 	
 
-/* 12.15 �닔�젙 */
+/* 12.15  닔 젙 */
 .content__chat__wrapper .content__chat__input {
     font-family: 'KBfgTextM', sans-serif !important;
     border:none;
@@ -1402,7 +1402,7 @@ textarea:focus {
     color:var(--bg-dark) !important;
     overflow: hidden;
     box-sizing: border-box;line-height: 1.6;
-    /* 10.2 �닔�젙 */
+    /* 10.2  닔 젙 */
     font-size:var(--sm-kor);
 }
 
@@ -1527,7 +1527,7 @@ textarea:focus {
     background-clip:content-box;*/
 }
 
-/* 26.02.25 �닔�젙 */
+/* 26.02.25  닔 젙 */
 .prompt__content__box .prompt__content__wrapper .prompt__content .prompt__wrapper__sender {
     display:flex;
     flex-direction:row;
@@ -1568,7 +1568,7 @@ textarea:focus {
     display:flex;
     align-items:center;
     border:1px solid var(--bg3);
-    /*si25360 new add  white-space:nowrap; �젣嫄� */
+    /*si25360 new add  white-space:nowrap;  젣嫄  */
 }
 
 .prompt__content__box .prompt__content__wrapper .prompt__content .prompt__wrapper__query {
@@ -1585,7 +1585,7 @@ textarea:focus {
 
 .prompt__content .prompt__wrapper__query .prompt__cont .prompt__src {}
 
-/* 11.17 �닔�젙 */
+/* 11.17  닔 젙 */
 .prompt__content .prompt__wrapper__query .prompt__cont .prompt__query_box {
     display:flex;
     flex-direction:column;
@@ -1593,7 +1593,7 @@ textarea:focus {
     padding-left:1.2rem;
     position:relative;
 }
-/* 11.17 �닔�젙 */
+/* 11.17  닔 젙 */
 .prompt__query_box::before {
     content:"";
     position:absolute;
@@ -1751,7 +1751,7 @@ textarea:focus {
 }
 
 
-/* 12.15 �닔�젙 */
+/* 12.15  닔 젙 */
 .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic7 {
     width:1rem;
     height:1rem;
@@ -1762,7 +1762,7 @@ textarea:focus {
     background-repeat: no-repeat;
 }
 
-/* 12.15 �닔�젙 */
+/* 12.15  닔 젙 */
 .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic8 {
     width:1rem;
     height:1rem;
@@ -1828,7 +1828,7 @@ textarea:focus {
     background-repeat: no-repeat;
 }
 
- /* 12.15 �닔�젙 */   
+ /* 12.15  닔 젙 */   
 [data-theme="dark"] .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic7 {
     width:1rem;
     height:1rem;
@@ -1839,7 +1839,7 @@ textarea:focus {
     background-repeat: no-repeat;
 }
 
-/* 12.15 �닔�젙 */
+/* 12.15  닔 젙 */
 [data-theme="dark"] .prompt__txt_adjust .prompt__query__btn__group .prompt__query__btn .prompt__query__btn_ic8 {
     width:1rem;
     height:1rem;
@@ -1882,13 +1882,13 @@ textarea:focus {
 }
 
 
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 .prompt__query__btn__group .prompt__btn__more_li:first-child {
     padding:.5rem;
     border-radius:.5rem .5rem 0 0 ;
     position:relative;
 }
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 .prompt__query__btn__group .prompt__btn__more_li:first-child::before {
     content:"";
     padding:.5rem;
@@ -1900,19 +1900,19 @@ textarea:focus {
     top:9px;
     left:5px;
 }
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 [data-theme="dark"] .prompt__query__btn__group .prompt__btn__more_li:first-child::before {
     content:"";
     position:absolute;
     background:url(/reNew/images/chatbotAI/icons/rp_ic_d.svg) !important;
 }
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 .prompt__query__btn__group .prompt__btn__more_li:nth-child(2) {
     padding:.5rem;
     border-radius:0 0 .5rem .5rem;
     position:relative;
 }
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 .prompt__query__btn__group .prompt__btn__more_li:nth-child(2)::before {
     content:"";
     padding:.5rem;
@@ -1923,7 +1923,7 @@ textarea:focus {
     left:5px;
     background:url(/reNew/images/chatbotAI/icons/pdf_ic.svg);
 }
-/* 12.17 �닔�젙 */
+/* 12.17  닔 젙 */
 [data-theme="dark"] .prompt__query__btn__group .prompt__btn__more_li:nth-child(2)::before {
     content:"";
     position:absolute;
@@ -2061,7 +2061,7 @@ textarea:focus {
     justify-content: center;
     border-radius: var(--radius1);transition:all .2s ease;
 } 
-/* 26.02.25 �닔�젙 */
+/* 26.02.25  닔 젙 */
 .query__rl__btn__wrapper__sm2 .query__rl__it__sm3 {
     min-width:5rem;
     height:1rem; /*si25360 3 to 1*/
@@ -2219,7 +2219,7 @@ textarea:focus {
     padding:.35rem;
 }
 
-/* 12.11 �닔�젙 */
+/* 12.11  닔 젙 */
 .sc__dr__ic {
     width:.78rem;
     height:.8rem;
@@ -2476,7 +2476,7 @@ dialog {
     gap: 1rem;
 }
 
-/* 12.11 �닔�젙 */
+/* 12.11  닔 젙 */
 
 .card_height_sm {
 	height: 7em !important;
@@ -2524,7 +2524,7 @@ dialog {
 .query__card__items {height: 100%;}
 
 
-/* 12.11 �닔�젙 */
+/* 12.11  닔 젙 */
 .query__card__item__box {
     display:flex;
     flex-direction:column;
@@ -2543,7 +2543,7 @@ dialog {
     border-radius: var(--radius1);
 }
 
-/* 26.02.25 �닔�젙 */
+/* 26.02.25  닔 젙 */
 .query__card__item__wrapper2 {
     background:transparent;
     padding: 1rem 0.5rem;
@@ -2619,7 +2619,7 @@ dialog {
     color:var(--bg-gray3);
 }
 
- /* 12.11 �닔�젙 */
+ /* 12.11  닔 젙 */
 .card__btn__flex {
     display:flex !important;
     justify-content:flex-end !important;
@@ -2627,7 +2627,7 @@ dialog {
     cursor:pointer;
 }
 
- /* 12.11 �닔�젙 */
+ /* 12.11  닔 젙 */
 .card__btn__f {
     position:absolute;
     bottom:10px;
@@ -3118,7 +3118,7 @@ dialog {
   display: inline-block;
 }
 
-/* �렯爾먯죱�쓣 �븣 */
+/*  렯爾먯죱 쓣  븣 */
 .cal__sc__box.is-open {
   -webkit-line-clamp: unset;
   max-height: none;
@@ -3685,7 +3685,7 @@ dialog {
         flex-direction: column;
         gap: 1rem;
         height: 100%;
-        /* 10.10 �닔�젙 */
+        /* 10.10  닔 젙 */
         justify-content: flex-start;
     }
     
@@ -3876,7 +3876,7 @@ dialog {
         height: 3.5rem;
         position: fixed;
         z-index:100;
-        /* 10.10 �닔�젙 */
+        /* 10.10  닔 젙 */
         /* position:relative; */
         isolation: isolate;
         top: 0;
@@ -4171,7 +4171,7 @@ dialog {
         z-index:500;
         background:var(--bg-d);
     }
-    /* 26.02.25 �닔�젙 */
+    /* 26.02.25  닔 젙 */
     .content__box .content__wrapper {
         padding:1rem;
         width:100%;
@@ -4274,14 +4274,14 @@ dialog {
         width:80vw;
     }
 
-    /* 9.30 �닔�젙*/
+    /* 9.30  닔 젙*/
     .content__wrapper__prompt {
         position:relative;
     }
 
     .content__chat__wrapper .content__chat__input {
-        /* 10.2 �닔�젙 : ios �뿉�꽌 以� �쁽�긽 留됱쓬 */
-        /* dpi 怨꾩궛�뿉 �뵲�씪 20px 源뚯� �븘�슂 > 以� �쁽�긽 �씠�뒋 �긽�쓽 */
+        /* 10.2  닔 젙 : ios  뿉 꽌 以   쁽 긽 留됱쓬 */
+        /* dpi 怨꾩궛 뿉  뵲 씪 20px 源뚯   븘 슂 > 以   쁽 긽  씠 뒋  긽 쓽 */
         font-size:16px;
     }
 
@@ -4289,7 +4289,7 @@ dialog {
         padding:1.2rem 1rem;
     }
 
-    /* 26.02.25 �닔�젙 */
+    /* 26.02.25  닔 젙 */
     .prompt__content .prompt__wrapper__query .prompt__cont .prompt__query_box {
         padding-left: 0 !important;
     }
@@ -4362,7 +4362,7 @@ dialog {
 
 }
 
-/* 9.30 �닔�젙*/
+/* 9.30  닔 젙*/
 @media (height <= 630px) {
     
     .prompt__content__box .prompt__content__wrapper {
@@ -4373,7 +4373,7 @@ dialog {
         justify-content: unset;
     }
     
-    /* 12.29 �닔�젙 */
+    /* 12.29  닔 젙 */
     .sidebar__cont_on .sidebar__cont_lists {
         width:87%;
         display:flex;
@@ -4393,7 +4393,7 @@ dialog {
 
 @media (min-width: 561px) and (max-width: 1080px)
        and (min-height: 900px) and (max-height: 1300px) {
-    /* ios : ipad �뿉�꽌 calc(100vh - 5rem) �븘�슂 */
+    /* ios : ipad  뿉 꽌 calc(100vh - 5rem)  븘 슂 */
     .main__wrapper {
         max-width: 100%;
         display: flex;
@@ -4491,7 +4491,7 @@ dialog {
 
 @media (min-width: 821px) and (max-width: 1280px)
        and (min-height:550px) and (max-height:840px) {
-    /* ios : ipad �뿉�꽌 calc(100vh - 5rem) �븘�슂 */
+    /* ios : ipad  뿉 꽌 calc(100vh - 5rem)  븘 슂 */
    .prompt__content__box .prompt__content__wrapper .prompt__content {
     max-height: unset;
     height: unset;
@@ -4596,7 +4596,7 @@ dialog {
 	}
 }
 
-/* 醫낅ぉ �떆�꽭 �젙蹂� �뒪���씪 */
+/* 醫낅ぉ  떆 꽭  젙蹂   뒪   씪 */
 .stock-price-info {
     padding: 20px;
     background-color: #f8f9fa;
@@ -4685,7 +4685,7 @@ dialog {
 
 
 
-/* 湲곗〈 醫낅ぉ �떆�꽭 �뒪���씪 */
+/* 湲곗〈 醫낅ぉ  떆 꽭  뒪   씪 */
 .chatOutTd {
     padding: 0 !important;
     background-color: #f8f9fa;
@@ -4746,7 +4746,7 @@ dialog {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* 湲곗〈 �뒪���씪怨쇱쓽 �샇�솚�꽦�쓣 �쐞�븳 異붽� �뒪���씪 */
+/* 湲곗〈  뒪   씪怨쇱쓽  샇 솚 꽦 쓣  쐞 븳 異붽   뒪   씪 */
 .chatOutTd br {
     line-height: 1.5;
 }
